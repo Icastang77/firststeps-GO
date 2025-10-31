@@ -1,0 +1,13 @@
+{
+  "name": "Go Development",
+  "image": "mcr.microsoft.com/devcontainers/go:1",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "golang.go",
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  },
+  "postCreateCommand": "go mod tidy"
+}
